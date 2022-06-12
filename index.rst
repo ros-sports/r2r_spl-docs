@@ -18,7 +18,7 @@ simply publish to ``r2r/send`` to broadcast a message, and subscribe to ``r2r/re
 to messages from teammates. The UDP connection and conversion to and from raw bytes are handled
 in this package.
 
-The project is hosted on `Github`_ by ijnek. **Issues and Pull Requests are welcome!**
+The project is hosted on `Github`_ by ROS Sports. **Issues and Pull Requests are welcome!**
 
 .. toctree::
    :hidden:
@@ -26,4 +26,4 @@ The project is hosted on `Github`_ by ijnek. **Issues and Pull Requests are welc
    installation
    tutorial
 
-.. _Github: https://github.com/ijnek/r2r_spl
+.. _Github: https://github.com/ros-sports/r2r_spl

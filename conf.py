@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Robot2Robot SPL'
-copyright = '2022, ijnek'
-author = 'ijnek'
+copyright = '2022, ROS Sports'
+author = 'ROS Sports'
 
 
 # -- General configuration ---------------------------------------------------

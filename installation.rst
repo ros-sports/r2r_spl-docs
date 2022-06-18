@@ -9,18 +9,28 @@ Installation
 Source Installation
 *******************
 
-.. note::
-
-   Instructions here assume that you have and are in a ROS2 workspace's
-   root directory.
-
 Cloning repositories
 ====================
 
-In your ROS2 workspace, clone the repository, install dependencies, and build it:
+Source your ROS2 installation, then in your ROS2 workspace, run:
+
+.. group-tab:: Foxy / Galactic
+
+   .. code-block:: console
+
+      git clone https://github.com/ros-sports/r2r_spl.git src/r2r_spl --branch=${ROS_DISTRO}
+
+Building
+========
+
+In your ROS2 workspace, install the dependencies:
 
 .. code-block:: console
 
-   git clone https://github.com/ros-sports/r2r_spl.git src/r2r_spl
    rosdep install --from-paths src -i
+
+Build the package:
+
+.. code-block:: console
+
    colcon build

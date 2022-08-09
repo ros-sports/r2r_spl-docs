@@ -135,6 +135,26 @@ Open a new tab, and echo messages on the ``r2r/recv`` topic, using the command b
    # Echo the messages
    ros2 topic echo r2r/recv
 
-In the second terminal, you should see a message being received at 1Hz from the first robot.
+You should see a message being received at 1Hz from the first robot, as following:
+
+.. code-block:: sh
+
+   ---
+   player_num: 1
+   team_num: 0
+   fallen: 0
+   pose:
+   - 1000.0
+   - 2000.0
+   - 1.5
+   ball_age: 10.0
+   ball:
+   - 200.0
+   - 0.0
+   data:
+   - 0
+   - 100
+   - 255
+   ---
 
 This indicates that the first robot is sending messages to the other robot, not using ROS topics, but over UDP packets as specified in the SPL rules!
